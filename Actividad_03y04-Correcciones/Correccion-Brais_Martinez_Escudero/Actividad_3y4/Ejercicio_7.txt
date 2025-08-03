@@ -1,6 +1,0 @@
-
-Programa: Ejercicio_7.py
-
-En este programa usamos un vector V de longitud n, aplicando el esquema de diseño Divide y vencerás
-y sin modificar V, escribimos una función que devuelva el valor que ocuparía la 
-posición k si el vector estuviera ordenado.

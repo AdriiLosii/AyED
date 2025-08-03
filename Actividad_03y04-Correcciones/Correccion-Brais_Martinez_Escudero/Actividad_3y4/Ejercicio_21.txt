@@ -1,9 +1,0 @@
-Programa: Ejercicio_21.py
-
-Explicación:
- 
-Se realiza un experimento bensmark cuando 1- la lista se divide entre 2 y las sublistas se dividen 
-entre 2, 2- la lista se divide entre 1 y las sublistas se dividen entre 2, 3- la lista se 
-divide entre 4 y las sublistas se dividen entre 2 y 4- la lista se divide entre 6 y las 
-sublistas se dividen entre 3. 
-El mejor caso es el 4.

@@ -1,6 +1,0 @@
-Programa: Ejercicio_14
-
-Explicación: Se realizaan las pruebas de referencia para las funciones de busqueda binaria iterativa
-y recursiva. En los resultados podemos ver como la busquedaBinaria 3 que es recursiva es la mas 
-rapida ya que al usar el operador corte crear la mitad de la lista que se pasa a la siguiente 
-invocación. Dando un mejor resultado computacional.

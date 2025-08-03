@@ -1,4 +1,0 @@
-Programa: Ejercicio_12.cpp
-
-Explicación: Se crea un progrma en el que se ve como se oredena paso a paso una lista por los 
-distintos metodos requeridos. 

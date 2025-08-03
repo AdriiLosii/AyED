@@ -1,1 +1,0 @@
-print("El ejercicio 7 al haber sido hecho en la clase colas dobles, este archivo esta vacio. Revisa la clase colas dobles para encontrar su especificacion informal")

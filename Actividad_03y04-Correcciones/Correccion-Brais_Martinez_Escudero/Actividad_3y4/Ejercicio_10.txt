@@ -1,8 +1,0 @@
-Programa: Ejercicio_10.py
-Clase: Class_Tablas_Hash.py
-Explicación:
-
-En la clase he añadido el metodo compa() que calcula las comparaciones segun el factor de carga 
-fc. En el programa he llamado a este metodo segun esta la tabla maso o menos en el porcentaje 
-adecuado. Al imprimir los resultados el primer numero dentro del parentisis son los exitos y el
-segundo son los fracasos.

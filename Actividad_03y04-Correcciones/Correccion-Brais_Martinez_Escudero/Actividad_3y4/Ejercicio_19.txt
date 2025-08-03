@@ -1,3 +1,0 @@
-Programa: Ejercicio_19.cpp
-
-En este programa utilizamos un generador de números aleatorios, el cual crea una lista de 500 enteros.

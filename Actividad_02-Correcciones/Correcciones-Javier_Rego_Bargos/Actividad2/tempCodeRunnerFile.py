@@ -1,1 +1,0 @@
-ista",milista.tamano())

@@ -1,5 +1,0 @@
-Programa: Ejercicio_5.py
-
-En este ejercicio se resuelve el problema de la mochila, tratande de 
-maximizar tus ganancias, usando distintas capacidades de la mochila y distintos 
-valores/pesos de los ítems.

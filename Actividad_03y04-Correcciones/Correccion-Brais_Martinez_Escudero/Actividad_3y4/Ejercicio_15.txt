@@ -1,4 +1,0 @@
-Programa: Ejercicio_15.py
-Clase: tablas_hash.py
-En este programa implantamos el método tamaño (__len__) para la implementación del TAD Vector 
-Asociativo, de manera que sea 𝑶(𝟏).

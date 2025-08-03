@@ -1,3 +1,0 @@
-Programa: Ejercicio_18.cpp
-
-En este programa se implementa la prueba cuadrática como una técnica de rehash.

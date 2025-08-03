@@ -1,9 +1,0 @@
-Programa: Ejercicio_8.cpp
-Clase: Class_jarras.hpp
-Explicación:
-Usa la misma clase que el Ejercicio_2.cpp que esta explicada en documento .txt.
-
-La condicion de esta funcion es que la jarra de X litros tenga X/2 litros. Mientras que la condicion
-no se cumpla se llena la jarra de Y litros, se mueve el agua de la jarra de Y litros a la
-jarra de X litros y si se llena esta jarra se vacia y se sigue pasando el agua de la jarra Y a la 
-X. 
