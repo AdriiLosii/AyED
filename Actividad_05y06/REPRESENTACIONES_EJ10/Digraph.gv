@@ -1,0 +1,25 @@
+digraph "Arbol AVL" {
+	A [label=20]
+	B [label=10]
+	C [label=30]
+	D [label=5]
+	E [label=25]
+	F [label=12]
+	G [label=3]
+	H [label=35]
+	I [label=22]
+	J [label=11]
+	K [label=6]
+	L [label=2]
+	A -> B
+	A -> C
+	B -> D
+	B -> E
+	C -> G
+	C -> F
+	D -> I
+	D -> H
+	E -> J
+	F -> K
+	H -> L
+}

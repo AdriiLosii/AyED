@@ -1,0 +1,7 @@
+Programa: Ejercicio_11.py
+
+Explicación: 
+
+Se realiza una prueba bensmark cuando el pivote es el primer elemento, el ultimo y un elemento 
+aleatorio. Como resultado podemos ver que cuando se usa un pivote que es el primero o el ultimo es
+mas rapido que cuando se usa un pivote aleatorio.

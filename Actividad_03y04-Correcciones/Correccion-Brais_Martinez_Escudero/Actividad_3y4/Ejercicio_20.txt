@@ -1,0 +1,5 @@
+Programa: Ejercicio_20.py
+
+Explicación: Cuando el numero de pasada es par compara si un numero es mayor que el siguiente, si
+pasa esto se intercambian dichos numeros y se resta uno en el numero de psada. Al ser numero impar
+compara si un numero es menor que el anterior, si pasa esto se intercambian dichos numeros.

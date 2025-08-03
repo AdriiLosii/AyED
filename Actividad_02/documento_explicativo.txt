@@ -1,0 +1,109 @@
+1.
+    Programa = Ej01.cpp
+
+    Se escriben la expresiones infijas:
+    1 -> (A+B)*(C+D)*(E+F)
+    2 -> A+((B+C)*(D+E))
+    3 -> A*B*C*D+E+F
+
+    Se pasan a notación prefija con la función "prefija()" y se evalúan con los valores de
+    una cifra dados para A, B, C, etc.
+
+2.
+    Programa = Ej02.cpp
+
+    Se modifica el algoritmo de evaluación en notación sufija para que pueda manejar
+    errores y que pueda manejar operandos de más de una cifra int o float
+
+    Se evaluan las expresiones sufijas y se opera con ellas mediante la funcion "opera_sufijo()"
+
+3.
+    Programa = Ej03.cpp
+    
+    Se evalúan las siguientes expresiones sufijas:
+    1 -> 2.5 31 * 4 +
+    2 -> 1.5 22 + 3 + 4 + 5 +
+    3 -> 123 2.5 3.1 4 5 * + * +
+
+    Y se muestra la pila a medida que es procesado cada operando y cada operador.
+
+4.
+    Programa = Ej04.py
+    Clase de apoyo = Class_Colas_04.py
+
+    Se implementa como un nuevo método de la clase, la concatenación de dos colas para 
+    constituir una nueva.
+    Para esto usamos las funciones de la clase de apoyo, ya explicadas en la propia clase.
+
+5.
+    Programa = Ej05.py
+    Clase de apoyo = Class_Impresion_05.py
+
+    Se simulan distintas situaciones con distintas tasas de impresión.
+
+6.
+    Programa = Ej06.py
+    Clase de apoyo = Class_Impresion_06.py
+
+    Se implementa el TAD Impresión usando Colas de prioridad.
+
+7.
+    Programa = Ej07.py
+    Clase de apoyo = Class_Colas_dobles_07.py
+
+    Se realiza la especificación informal del TAD Cola Doble y se comprueban los métodos en el programa.
+
+8.
+    Programa = Ej08.py
+    Clase de apoyo = Class_Colas_prioridad_08.py
+
+    Se implementa el TAD Colas de Prioridad usando listas enlazadas ordenadas,
+    el funcionamiento de los métodos está explicado en la clase.
+
+9.
+    Programa = Ej09.py
+    Clase de apoyo = Class_Conjuntos_09.py
+
+    Se escribe la especificación informal del TAD Conjunto. 
+    Además se añade lo siguiente:
+        • Un método elimina() que borra del conjunto el elemento dado.
+        • Un método union() que devuelve el conjunto resultante de unir dos conjuntos dados.
+        • Un método interseccion() que devuelve un conjunto con la intersección de dos conjuntos dados.
+        • Un método diferencia() que devuelve un conjunto con la diferencia entre dos conjuntos dados.
+        • Un método incluye() que consulta si un conjunto dado está incluido en otro conjunto dado.
+10.
+    Programa = Ej10.cpp
+    Clase de apoyo = Class_Listas_No_Ordenadas_10.hpp
+
+    Se implementa el método anexar una nueva lista para ListaNoOrdenada (comentarios en la clase).
+    Mostramos la complejidad del metodo creado, en este caso O(n).
+
+11.
+    Programa = Ej11.py
+    Clase de apoyo = Class_Listas_No_Ordenadas_11.py
+
+    Se implementan los métodos no desarrollados en el TAD Lista No Ordenada, además de:
+    fin, primero, siguiente y anterior.
+    Los métodos están explicados en la clase.
+
+12.
+    Programa = Ej12.py
+    Clase de apoyo = Class_Listas_Ordenadas_12.py
+
+    Se implementan los métodos no desarrollados en el TAD ListaOrdenada, así como los 
+    métodos borrar, indice, extraer y extraer(pos).
+    Los metodos son creados y comentados en la propia clase.
+
+13.
+    Programa = Ej13.py
+    Clase de apoyo = Class_Listas_No_Ordenadas_13.py
+
+    Está todo comentado en el programa, puesto que es una pregunta.
+
+14.
+    Programa = Ej14.py
+    Clase de apoyo = Class_Listas_No_Ordenadas_14.py
+
+    Se implementa el método tamano contando el número de nodos en la lista.Se modifica la clase ListaNoOrdenada para 
+    incluir esta información y reescribimos el método tamano. 
+    Mostramos la complejidad del metodo creado.

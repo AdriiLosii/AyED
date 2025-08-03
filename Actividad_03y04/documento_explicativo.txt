@@ -1,0 +1,166 @@
+(Todos los programas y clases tienen comentarios adicionales en ellos.)
+
+1.
+    Programa = Ej01.cpp
+    Clase de apoyo = Class_Listas_No_Ordenadas_01.hpp
+
+    Explicación:
+    Creamos una lista con números aleatorios y llamamos a la función para que devuelva la lista enlazada invertida.
+
+2.
+    Programa = Ej02.cpp
+    Clase de apoyo = Class_Jarras_02.hpp
+
+    Explicación:
+    Definimos las 2 jarras con sus capacidades respectivas y llamamos a la función para que resuelva el ejercicio:
+    Las acciones que realiza la función resolver_jarras() son:
+    (Jarra X = jarra 4 litros, Jarra Y = jarra 3 litros)
+    1.- Llenar la jarra X.
+    2.- Transvasar de la jarra X a la jarra Y.
+    3.- Vaciar la jarra Y.
+    4.- Transvasar de la jarra X a la jarra Y.
+    5.- Llenar la jarra X.
+    6.- Transvasar de la jarra X a la jarra Y.
+    7.- Comprobar los litros en la jarra X.
+
+3.
+    Programa = Ej03.cpp
+
+    Explicación:
+    Creamos varias funciones para llevar a cabo y ejecutar el triaángulo de Pascal
+    Utilizamos 2 funciones, una recursiva y una no recursiva. 
+    Para ejecutar el tringulo pedimos al usuario el numero de filas que queire para su triángulo
+
+4.
+    Programa = Ej04.py
+
+    Explicación:
+    Solicitamos los datos: cantidad a devolver, número de monedas, valores de las monedas.
+    Llamamos a la función para obtener el número de vueltas mínimo.
+
+5.
+    Programa = Ej05.py
+
+    Explicación:
+    Solicitamos los datos: número de cuadros, valor de los cuadros, peso de los cuadros, capacidad de la mochila.
+    Llamamos a la función para obtener el máximo beneficio (solo se puede obtener como máximo 1 cantidad de cada cuadro).
+
+6.
+    Programa = Ej06.py
+
+    Explicación:
+    Creamos un vector aleatorio, lo mostramos y solicitamos los valores que limitan el tramo,
+    a continuación llamamos a la función para ordenar el tramo solicitado.
+    Por último ejecutamos el análisis para obtener los tiempos de ejecución.
+
+7.
+    Programa = Ej07.py
+
+    Explicación:
+    Creamos un vector de números aleatorios, lo mostramos y solicitamos la posición k-ésima.
+    A continuación llamamos a la función para obtener el valor y lo mostramos.
+
+8.
+    Programa = Ej08.py
+    Clase de apoyo = Class_Jarras_08.hpp
+
+    Explicación:
+    Modificamos la clase y el programa del ejercicio 2 para generalizarlo.
+
+9.
+    Programa = Ej09.py
+
+    Explicación: A partir del programa del triángulo de Pascal (Ej03.py), vamos a
+    multiplicar los elementos de cada una de las filas.
+    Si se divide cada resultado obtenido al multiplicar entre el obtenido en la fila
+    anterior obtenemos los siguientes valores:
+            {1, 2, 4.5, 10.666, …, 26.0417, 64.8}
+    Y ahora dividimos de nuevo cada uno de los resultados de esa lista entre el anterior.
+    Haciendo esto llegamos a los siguientes datos:
+            {2, 2.25, 2.370370, … , 2.44140625, 2.48832}
+    Se modifica el programa realizado en el ejercicio 3 para que calcule una aproximación del
+    número e.
+    Para esto creamos una funcion llamada aproxima a la que le introducimos como inputs el numero de filas, el error y la aproximacion que el usuario desee.
+
+10.
+    Programa = Ej10.cpp
+
+    Explicación:
+    Llamamos a las funciones para aplicar las fórmulas y obtener los tiempos con los distintos valores del factor de carga.
+
+11.
+    Programa = Ej11.py
+
+    Explicación: 
+    Creamos 4 funciones distintas (cada una con sus funciones auxiliares) para elegir el valor del pivote:
+    1.- quickSort_pivotePrimero -> Función de ordenamiento rápido que elige como valor de pivote el primer elemento del vector.
+    2.- quickSort_pivoteUltimo -> Función de ordenamiento rápido que elige como valor de pivote el último elemento del vector.
+    3.- quickSort_pivoteAleatorio -> Función de ordenamiento rápido que elige como valor del pivote un número aleatorio del vector.
+    4.- quickSort_pivoteMediana -> Función de ordenamiento rápido que elige como valor del pivote la mediana de: el primero, el último y el valor central del vector.
+
+12.
+    Programa = Ej12.py
+
+    Explicación:
+    Creamos un menú para seleccionar el método de ordenación deseado o para ajustar el tamaño de la lista.
+
+13.
+    Programa = Ej13.py
+
+    Explicación:
+    Creamos las funciones y realizamos el análisis para obtener los distintos tiempos de ejecución y sacar una conclusión.
+
+14.
+    Programa = Ej14.py
+
+    Explicación:
+    Creamos las funciones y realizamos el análisis para obtener los distintos tiempo de ejecución y sacar unas conclusión.
+
+15.
+    Programa = Ej15.cpp
+    Clase de apoyo = Class_Tablas_Hash_15.hpp
+
+    Explicación:
+    Implementamos el método tamano() en la clase, para esto, creamos una variable nueva (int tamano = 0),
+    en la que cada vez que se añada un elemento le sumamos 1 y cuando se elimine le restamos 1.
+
+16.
+    Programa = Ej16.py
+    Clase de apoyo = Class_Tabla_Hash_Encadenada_16.py
+
+    Explicación:
+    Creamos un menú con todas las opciones posibles (la tabla hash se agranda automáticamente cuando el factor de carga el mayor al 70%).
+
+17.
+    Programa = Ej17.py
+    Clase de apoyo = Class_Tabla_Hash_17.py
+
+    Explicación:
+    Creamos un método en la clase que compruebe, cada vez que se añade un elemnto nuevo, si la tabla debe de agrandarse o no.
+
+18.
+    Programa = Ej18.py
+    Clase de apoyo = Class_Tabla_Hash_18.py
+
+    Explicación:
+    Modificamos el valor de salto para el reshash en la función.
+
+19.
+    Programa = Ej19.py
+
+    Explicación:
+    Comparamos los tiempo de ejecución de los métodos de ordenación: por selección, por inserción y por mezcla en una lista de 500 enteros.
+    Como el tamaño de lista siempre va a ser de 500, en el análisis variará el número de ejecuciones para cada función.
+
+20.
+    Programa = Ej20.py
+
+    Explicación:
+    Modificamos la ordenación por burbuja para que cuando llegue al final de la lista cambie de dirección,
+    esto lo haremos con ayuda de una función que toma los valores: 1 = desplazarse hacia la derecha, -1 = desplazarse hacia la izquierda.
+
+21.
+    Programa = Ej21.py
+
+    Explicación:
+    Creamos los distintos tipos de ordenación Shell, comparamos los tiempos de ejecución y sacamos una conclusión.

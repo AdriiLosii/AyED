@@ -1,0 +1,14 @@
+Capacidad de procesamiento = 10 paginas
+
+Usuarios/hora = 10
+
+Impresiones maximas por usuario/hora = 2
+
+Maximo de hojas impresas por usuario = 20 paginas
+
+Maximo de paginas impresas ==> 2 veces * 10 usuarios * 20 paginas = 400 paginas/hora ==> 400*1/60 = 6.66 paginas/minuto
+
+Minimo de paginas impresas ==> 1 vez * 10 usuarios * 1 pagina = 10 paginas/hora ==> 10*1/60 = 0.16 paginas/minuto
+
+Sabiendo que el máximo de paginas que se van a imprimir es igual a 6.66 por minuto y que la impresora tiene un maximo de capacidad de 10 paginas por minuto,
+podemos decir que es posible aumentar la calidad de impresion sacrificando algo de la capacidad de procesamiento.

@@ -1,0 +1,15 @@
+# Tema2_14
+from Class_Estructuras_lineales import ColaDoble
+d = ColaDoble()
+print(d.estaVacia())
+d.agregarFinal(4)
+d.agregarFinal('perro')
+d.agregarFrente('gato')
+d.agregarFrente(True)
+print(d.tamano())
+print(d.estaVacia())
+d.agregarFinal(8.4)
+print(d.borrarFinal())
+print(d.borrarFrente())
+print(d.tamano())
+print(d)

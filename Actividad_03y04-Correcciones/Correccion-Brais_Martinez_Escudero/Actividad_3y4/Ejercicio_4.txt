@@ -1,0 +1,3 @@
+Programa: Ejercicio_4.cpp
+
+Este programa te devuelve el cambio usando las monedas corrientes más una de 8 céntimos.

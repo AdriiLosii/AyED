@@ -1,0 +1,9 @@
+void add(int item)
+{ //creates a "temp" pointer that adds the new node to the head of the list
+    Node *temp = new Node(item);
+    temp->setNext(head);
+    head = temp;
+}
+
+
+Al ejecutar en orden inverso los pasos del metodo agregar, creariamos la lista al revés y los elementos estarian apuntando al elemento erroneo

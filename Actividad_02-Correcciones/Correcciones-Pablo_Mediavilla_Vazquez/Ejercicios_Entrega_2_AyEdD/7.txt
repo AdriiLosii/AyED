@@ -1,0 +1,19 @@
+TAD con operaciones estaVacia, agregarFrente, agregarFinal, borrarFrente, borrarFinal, tamano, frente, ultimo, inspeccionar
+
+estaVacia(): Crea una lista vacia
+
+agregarFrente(item): Introduce en al principio de la lista un elemento introducido
+
+agregarFinal(item): Introduce en al final de la lista un elemento introducido
+
+borrarFrente(): Borra el elemento [0] de la lista, es decir, el primer elemento
+
+borrarFinal(): Borra el elemento final de la lista
+
+tamano(): Devuelve la longitud de la lista
+
+frente(): Devuelve el elemento [0] de la lista
+
+ultimo(): Devuelve el elemento final de la lista
+
+inspecionar(index): Devuelve el elemento que ocupa la posicion indicada por el usuario

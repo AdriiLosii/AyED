@@ -1,0 +1,108 @@
+1.
+    Programa = Ejercicio_01.cpp
+    Clase de apoyo = Clase_Puertas_01_02.hpp
+    Se crean en la clase las puertas lógicas: PertaNOR, puertaNAND y PuertaXOR.
+    Se verifica su funcionamiento con el circuito: NOT((A NAND B) XOR (C NOR D))
+
+2.
+    Programa = Ejercicio_02.cpp
+    Clase de apoyo = Clase_Puertas_01_02.hpp
+    Se definen las puertas lógicas, se establecen los valores de los pines,
+    se conectan las puertas y se muestra el circuito de puerta lógicas
+    junto con el resultado. En este programa se utilizan 4 circuitos 
+    (Los 2 primeros con las puertas lógicas: NOT, AND y OR, y los 2 últimos
+    con las puertas lógicas: NOR y NAND)
+    Circuito 1.1:
+        NOT((A AND B) OR (C AND D))
+    Circuito 1.2:
+        NOT(A AND B) AND NOT(C AND D)
+    Circuito 2.1:
+        (A AND B) NOR (C AND D)
+    Circuito 2.2:
+        (A NAND B) AND (C NAND D)
+
+3.
+    Programa = Ejercicio_03.cpp
+    Clase de apoyo = Clase_Fracciones_03.hpp
+    Se modifica el constructor para que solo se puedan introducir número de tipo int.
+    Se crean 2 nuevas funciones dentro de la clase (getNum y getDen) que devuelven el
+    numerador y el denominador de la fracción respectivamente, además se implementan los
+    operador restantes.
+    Todo se comprueba en su respectivo programa.
+
+4.
+    Programa = Ejercicio_04.cpp
+    Clase de apoyo = Clase_Fracciones_04.hpp
+    Se modifica el constructor para que se puedan introducir denominadores negativos.
+
+5.
+    Programa = Ejercicio_05.py
+    Clase de apoyo = Clase_Fecha_05.py
+    Se construye la clase "Clase_Fecha_05.py" en la que se introduce una fecha y se realizan
+    diversas funciones (comprobar que la fecha sea correcta, comprobar si el año introducido es bisiesto,
+    mirar si es mayor o menor que la fecha actual y mirar si es igual o distinta a la fecha actual).
+
+6.
+    Programa = Ejercicio_06.cpp
+    Clase de apoyo = Clase_Hora_06.hpp
+    Se crea la clase "Clase_Hora_06.hpp" de tal forma que sea robusta.
+    El programa recibe una hora y la muestra por pantalla.
+
+7.
+    Programa = Ejercicio_07.py
+    Clase de apoyo = Clase_Polinomio_07.py
+    Se crea la clase "Clase_Polinomio_07.py" con todas las operaciones posibles sobre polinomios.
+    En el programa se introducen 2 polinomios y se muestran todas las posibles operaciones que se pueden realizar.
+
+8.
+    Programa = Ejercicio_08.py
+    Clase de apoyo = Clase_Complejo_08.py
+    Se crea la clase "Clase_Complejo_08.py" con todas las operaciones posibles sobre números complejos.
+    En el programa se introducen 2 números complejos y a continuación se muestra un menú con todas las operaciones posibles.
+
+9.
+    Programa = Ejercicio_09.py
+    Clase de apoyo = Clase_Dados_09.py
+    Se crea la clase "Clase_Dados_09.py" en la que se realiza un juego de suerte con dados.
+    En el programa se introducen el número de jugadores, el número de turnos y el número de
+    caras de los dados, automáticamente se muestran las puntuaciones y el ganador.
+
+10.
+    Programa = Ejercicio_10.cpp
+    Clase de apoyo = Clase_Fracciones_10.hpp
+    Se crea la clase "Clase_Fracciones_10.hpp" para que sea igual que la desarrollada en python.
+
+11.
+    Programa = Ejercicio_11.py
+    Se realiza un experimento en el que se compara el tiempo que tardan 2 funciones (una de O(n) y otro de O(n²))
+    en encontrar el número más pequeño de una lista.
+
+12.
+    Programa = Ejercicio_12.py
+    Se realiza un experimento en el que se comprueba que el tiempo que tarda el operador indexación (O(1)).
+
+13.
+    Programa = Ejercicio_13.py
+    Se realiza un experimento en el que se comparan las operaciones de obtención y asignación de ítems en diccionarios.
+
+14.
+    Programa = Ejercicio_14.py
+    Se realiza un experimento en el que se compara el tiempo de ejecución del operador "del" en lista y diccionarios.
+
+15.
+    Programa = Ejercicio_15.py
+    Programa que funciona en tiempo O(n*log(n)) que busca el k-ésimo número más pequeño de una lista aleatoria.
+
+16.
+    Programa = Ejercicio_16.py
+    Explicación de si se puede reducir el tiempo de ejecución del programa anterior a O(n)
+
+17.
+    Programa = Ejercicio_17.py
+    Se realiza un experimento en el que se compara el tiempo de ejecución 3 métodos distintos
+    para calcular el sumatorio de un vector.
+
+18.
+    Programa = Ejercicio_18.py
+    Se realiza un experimento en el que se comparan los tiempos de ejecución entre listas y diccionarios
+    para encontrar cuantos números de repiten 2 o más veces en un vector.

@@ -1,0 +1,1 @@
+print("Ejercicio de explicacion, hecho en el documento de texto en la carpeta")

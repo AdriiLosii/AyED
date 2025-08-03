@@ -1,0 +1,5 @@
+Programa: Ejercicio_17.py
+
+En este ejercicio se implementa el Vector Asociativo de las tablas hash, pero con un tamaño 
+de la tabla hash distinto de  11. Mejorando el método agregar para que la tabla se 
+redimensione automáticamente cuando el factor de carga alcance un valor predeterminado 

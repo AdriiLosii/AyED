@@ -1,0 +1,4 @@
+Programa: Ejercicio_16.py
+Clase: tablas_hash_16.py
+En este ejercicio se implementa el método eliminar para 
+la clase TablaHash que utiliza encadenamiento.

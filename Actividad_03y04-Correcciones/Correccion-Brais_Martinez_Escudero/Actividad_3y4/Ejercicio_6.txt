@@ -1,0 +1,5 @@
+Programa: Ejercicio_6.py
+
+
+En este programa hemos hecho un algoritmo para obtener de manera recursiva el valor máximo 
+de un tramo de un vector V.

@@ -1,0 +1,196 @@
+(Todos los programas y clases tienen comentarios adicionales en ellos.)
+
+1.
+    Programa = Ej01.cpp
+    Clase de apoyo = Class_Operators_01.hpp, Class_ArbolBinario_01.hpp
+
+    Explicación:
+    Para que la función pueda leer expresiones matemáticas sin espacios entre cada caracter hemos creado un condicional if() en el que si el caracter actual de la cadena
+    es un número, este seguirá añadiendo los digitos posteriores hasta que se tope con algo distinto a un dígito o un '.' de los decimales. El resto del algoritmo es similar
+    al original, además de las lecturas validadas.
+
+2.
+    Programa = Ej02.py
+    Clase de apoyo = Class_Arboles_02.py, Class_Estructuras_lineales.py
+
+    Explicación:
+    En este programa se modifican las funciones construirArbolAnalisis y evaluar para que puedan manejar las sentencias
+    booleanas (and, or, y not). Hay que tener en cuenta que “not” es un operador unario.
+    Se define la funcion que se encarga de crer un arbol de analisis , llamada construirArbolAnalisis
+    Se crea una lista de simbolos con todos los que se pueden usar, tambien se asigna a 1 y 0 las sentencias booleanas correspondientes (True y False).
+    Posteriormente recorremos la expresion introducida en la funcion y asignamos valores a la raiz e cogemos valor de los hijos derecho e izquiero en el caso de puertas or y and,
+    en el caso de la puerta NOT solo asignamos el hijo derecho puesto que es una puerta unaria
+
+
+    Para la implementacion de las puertas OR y AND usamos la libreria operator, para la puerta NOT creamos una funcion puerta que nega la entrada de la puerta.
+
+    Al final creamos la expresion con la funcion construirArbolAnalisis, la evaluamos y mostramos el resultado.
+
+3.
+    Programa = Ej03.cpp
+    Clase de apoyo = Class_ABB_03.hpp, Class_NodoArbol_03.hpp
+
+    Explicación:
+    Para realizar lo solicitado en el enunciado implementamos el algoritmo de Morris en la clase ABB (inorden() = algoritmo de Morris).
+
+4.
+    Programa = Ej04.cpp
+    Clase de apoyo = Class_ABB_04.hpp, Class_NodoArbol_04.hpp
+
+    Explicación:
+    En este ejercicio simplemente añadimos un condicional en la clase que nos indique si la clave introducida ya se encuentra en el árbol, y si es así que la sustituya por el nuevo valor.
+
+5.
+    Programa = Ej05.cpp
+    Clase de apoyo = Class_ArbolBinario_05.hpp
+
+    Explicación:
+    Para que el algoritmo no muestre un par de paréntesis extra modificamos la función 'imprimirExpresion()', cambiando los símbolos '(' y ')' por espacios en blanco.
+
+6.
+    Programa = Ej06.py
+    Clase de apoyo = Class_Monticulo_06.py
+
+    Explicación:
+    En este ejercicio utilizando el método construirMonticulo, escribe una función de ordenamiento que pueda ordenar una 
+    lista en tiempo O(nlogn), esto lo hacemos mediante el metodo de heapsort.
+
+    Para este ejercicio usamos la clase Clas_Monticulo_06. 
+    En esta clase creamos la funcion heapsort y la funcion heapify (explicadas en la clase).
+
+    Posteriormente creamos un monticulo con una lista aleatoria y la ordenamos mediante el metodo heapsort.
+
+    Como conclusion tenemos que la complejidad temporal de la función creada es de O(nlogn) ya que, la complejidad temporal para construir el monticulo max es de O(n)
+    y la de ordenar el montículo (heapify) es O(nlogn).
+
+7.
+    Programa = Ej07.cpp
+    Clase de apoyo = Class_MaxHeap_07.hpp
+
+    Explicación:
+    Modificamos la clase para que en lugar de colocar los números más pequeños en orden ascendente en el árbol lo hiciera con los números más grandes.
+
+8.
+    Programa = Ej08.py
+    Clase de apoyo = Class_colas_prioridad_08.py
+
+    Explicación:
+    En este ejercicio unimos la clase Monticulosbinarios y colaPrioridad, donde realizamos dos métodos nuevos , agregar y avanzar, donde tal como dice el nombre,
+    agregar agrega nuevos elementos a la cola y el método avanzar, donde se elimina el elemento mínimo de la cola y avanzamos así la cola.
+    Se realiza un menú para que el usuario pueda jugar con las diferentes opciones de la clase, donde trae otras opciones como extraer máximo, mínimo.
+
+9.
+    Programa = Ej09.cpp
+    Clase de apoyo = Class_AVL_09.hpp, Class_ABB_09.hpp, Class_NodoArbol_09.hpp
+
+    Explicación:
+    El método elimina() en un árbol AVL es bastante similar al método agrega(), en primer lugar buscamos el elemento a eliminar, si se encuentra,
+    debemos de tener en cuenta si se trata de un nodo hoja, un nodo padre con un solo hijo o un nodo padre con ambos hijos. En el caso de que
+    el nodo a borrar sea un nodo padre con ambos hijos, debemos de buscar el sucesor, que será el hijo con menor valor del subárbol derecho del nodo a borrar.
+
+10.
+    Programa = Ej10.py
+    Clase de apoyo = Class_AVL_10.py, Class_Nodos_10.py
+
+    Explicación:
+    En este algoritmo creamos un menú para elegir que árbol AVL se quiere visualizar. Cuando se introduce una opción adecuada definimos el AVL,
+    mostramos en la terminal que elemento se está agregando y que acciones se realizan para reajustar el balance del árbol. Finalmente utilizamos graphviz
+    para visualizar el árbol resultante.
+
+11.
+    Programa = Ej11.py
+    Clase de apoyo = Class_Grafos_11.py, Class_Vertices_11.py
+
+    Explicación: 
+    Se agregar los nodos y las aristas del grafo y con networkx se crea una visualización del mismo.
+
+12.
+    Programa = Ej12.py
+    Clase de apoyo = Class_Grafos_12.py, Class_Vertices_12.py, Class_Estructuras_lineales.py
+
+    Explicación:
+    Cogiendo el grafo del ejercicio 11, utilizamos una algoritmo de busqueda de anchura. Cada vez que el algoritmo hace un movimiento sale una visualizacion del movimiento y
+    cuando este termina, muestra el recorrido y el resultado.
+
+13.
+    Programa = Ej13.cpp
+    Clase de apoyo = Class_grafos_string_full_13.hpp
+
+    Explicación:
+    En este ejercicio explicamos la notacion O(grande) de la función buildGraph, que como podemos comprobar al tener 3 for anidados es de O(n³).
+
+14.
+    Programa = Ej14.py
+    Clase de apoyo = Class_cola_prioridad_con_tuplas_14.py
+
+    Explicación:
+    Realizamos la clase del ejercicio 8 pero realizado con tuplas, donde buscamos a través de diferentes métodos nuevos, como obtenerconexiones, 
+    donde obtenemos a donde se conecta cada elemento del grafo,. Con el método de Dijkstra buscamos la distancia mínima a todos los puntos desde
+    un inicio dicho desde el usuario, observamos que recorrido mínimo hay que hacer para llegar a todos los sitios con la mínima distancia posible.
+
+15.
+    Programa = Ej15.py
+    Clase de apoyo = Class_cola_prioridad_con_tuplas_15.py
+
+    Explicación:
+    Realmente es lo mismo que el 14 pero con un grafo distinto, iniciandose desde el punto A
+
+16.
+    Programa = Ej16.py
+    Clase de apoyo = Class_Grafos_16.py, Class_Vertices_16.py
+
+    Explicación:
+    En este programa se aplica el algoritmo de prim sobre el grafo dado. Se muestra el grafo antes y despues, se da una lista
+    con las conexiones y se escriben estas paso a paso.
+
+17.
+    Programa = Ej17.py
+    Clase de apoyo = Class_Grafos_17.py, Class_Vertices_17.py
+
+    Explicación:
+    En este programa se establece un grafo y hacemos prim 1000 veces calculando su tiempo de ejecucion y haciendo la media al final.
+
+18.
+    Programa = Ej18.py
+    Clase de apoyo = Class_Grafos_18.py, Class_Vertices_18.py
+
+    Explicación:
+    En este programa se aplica el algoritmo de prim sobre el grafo dado. Se muestra el grafo antes y despues, se da una lista
+    con las conexiones y se escriben estas paso a paso.
+
+19.
+    Programa = Ej19.py
+    Clase de apoyo = 
+
+    Explicación:
+    En este ejercicio se pide modificar la funcion de busqueda en profundidad para producir un ordenamiento topologico.
+
+    Para eso creamos la funcion BEP_topografica. A esta funcion le pasamos un grafo, con el construimos un monticulo.
+    Hacemos un for que recorra el grafo y vamos obteniendo los vertices siguientes al actual de forma recursiva.
+    Esto se hace hasta que se llegue al final del grafo, sea por el camino que sea, en este caso se notifica que se ha llegado y se vuelve al nodo anterior.
+
+    Para hacer esto rapidamente creamos una funcion recursiva llamada BEP_ayuda.
+
+20.
+    Programa = Ej20.py
+    Clase de apoyo = 
+
+    Explicación:
+    En este ejercicio se pide buscar una ordenacion topologica para el grafo propuesto. 
+    Para ello usamos las funciones del ejercicio 19.
+    Todos y cada uno de los pasos están totalmente detallados en terminal una vez se ejcuta el programa
+
+21.
+    Programa = Ej21.py
+    Clase de apoyo = Class_Grafos_21.py, Class_Vertices_21.py
+
+    Explicación:
+    En este ejercicio trataremos de transponer un grafo, es decir que una vez introducido el grafo cambiar como se relacionan los vértices. (a--->b/ b--->a) 
+
+22.
+    Programa = Ej22.py
+    Clase de apoyo = Class_Grafos_22.py, Class_Vertices_22.py, Class_Estructuras_lineales.py
+
+    Explicación:
+    Se implementa en la clase Grafos un método que hace la busqueda por anchura. En el programa se da un grafo (en este caso el del 
+    ejercicio 18) y se muestra la busqueda por anchura resultante.

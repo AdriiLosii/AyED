@@ -1,0 +1,5 @@
+Programa: Ejercicio_3.py
+
+Explicación:
+Primero se pide el numero de filas que quiere que tenga la piramide y depues la funcion piramide 
+imprime una piramide de pascal con las filas indicadas.

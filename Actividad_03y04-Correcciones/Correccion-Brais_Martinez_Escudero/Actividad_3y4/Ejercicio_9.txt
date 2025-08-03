@@ -1,0 +1,9 @@
+Programa: Ejercicio_9.py
+
+Explicación:
+
+Se realiza la funcion piramide con 710 filas en el que se multiplica los valores de cada fila, 
+depues se divide cada resultado obtenido al multiplicar entre el obtenido en la fila anterior y 
+volvemos a dividir cada uno de los resultados de esa lista entre el anterior. 
+El valor que se obtiene en la fila 710 despues de realizar el proceso es la mayor aproximacion que
+se puede hacer con este programa al numero e.

@@ -1,0 +1,7 @@
+Programa: Ejercicio_13.cpp
+
+Explicación:
+
+Con los tiempos obtenidos podemos decir que el mejor metodo de busqueda son los metodos binarios 1 
+y 2 . El peor sera el metodo binario 3. El tiempo obtenido por los dos metodos secuenciales tambien 
+son muy buenos.

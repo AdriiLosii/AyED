@@ -1,0 +1,7 @@
+Programa: Ejercicio_1.cpp
+Clase: Class_Listas_No_Ordenadas.hpp
+Explicación:
+
+La función invertir el caso base es que la lista se quede vacia mientras que no esta vacia añade 
+el primer elemento en la lista invertida, elimina el mismo de su lista y llama de nuevo a la 
+función. se realizara el mismo proceso hasta que se cumpla el caso base.
